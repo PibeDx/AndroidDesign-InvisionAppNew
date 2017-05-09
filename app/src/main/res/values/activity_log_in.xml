@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TEXT-->
+    <string name="log_in_eteUsername_holder">Username</string>
+    <string name="log_in_etePassword_holder">Password</string>
+    <string name="log_in_butGetStarted_text">Get Started</string>
+    <string name="log_in_tviCreateAccount_text">Create Account</string>
+    <string name="log_in_tviNeedHelp_text">Need Help?</string>
+
+    <!--COLOR-->
+    <color name="log_in_tvi_footer_text">@color/log_in_tvi_footer</color>
+    <color name="log_in_tvi_footer_text_default">#8E8980</color>
+    <color name="log_in_tvi_footer_text_select">#A68e8980</color><!--65%-->
+    <color name="log_in_ete_text">#FFFBF8</color>
+    <color name="log_in_ete_text_hint">#FFFBF8</color>
+    <color name="log_in_ete_background">#598E8980</color>
+    <color name="log_in_but_butGetStarted_text">#FFFBF8</color>
+    <color name="log_in_background_startColor">#000000</color>
+    <color name="log_in_background_endColor">#EC6536</color>
+
+    <!--DRAWABLE-->
+    <drawable name="log_in_drawable_background_butGetStarted">@drawable/box_orange</drawable>
+    <drawable name="log_in_drawable_background_ete">@drawable/box_white_10</drawable>
+
+    <!--DIMEN-->
+    <dimen name="log_in_butGetStarted_text_size">14sp</dimen>
+    <dimen name="log_in_ete_text_size">14sp</dimen>
+    <dimen name="log_in_tvi_footer_text_size">12sp</dimen>
+
+    <!--STYLE-->
+    <style name="AppTheme.LogIn" parent="@style/AppTheme.NoActionBar">
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="colorControlNormal">@color/orange</item>
+    </style>
+
+    <style name="AppTheme.LogIn.Button_GetStarted" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/log_in_drawable_background_butGetStarted</item>
+        <item name="android:textColor">@color/log_in_but_butGetStarted_text</item>
+        <item name="android:textSize">@dimen/log_in_butGetStarted_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layerType">software</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.LogIn.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/log_in_ete_text</item>
+        <item name="android:textColorHint">@color/log_in_ete_text_hint</item>
+        <item name="android:background">@drawable/log_in_drawable_background_ete</item>
+        <item name="android:minHeight">48dip</item>
+    </style>
+
+    <style name="AppTheme.LogIn.TextView_Footer" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/log_in_tvi_footer_text_size</item>
+        <item name="android:textColor">@color/log_in_tvi_footer_text</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

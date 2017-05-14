@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TEXT-->
+    <string name="log_in_butGetStarted_text">Empezar</string>
+    <string name="log_in_etePassword_holder">Contraseña</string>
+    <string name="log_in_eteUsername_holder">Usuario</string>
+    <string name="log_in_tviCreateAccount_text">Crear una cuenta</string>
+    <string name="log_in_tviNeedHelp_text">¿Nesecitas ayuda?</string>
+</resources>

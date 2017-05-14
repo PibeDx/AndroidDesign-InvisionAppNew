@@ -18,10 +18,13 @@
     <color name="log_in_but_butGetStarted_text">#FFFBF8</color>
     <color name="log_in_background_startColor">#000000</color>
     <color name="log_in_background_endColor">#EC6536</color>
+    <color name="log_in_ete_colorControlActivated">#8E8980</color>
+    <color name="log_in_ete_colorControlNormal">#8E8980</color>
+    <color name="log_in_ete_backgroundTint">#8E8980</color>
 
     <!--DRAWABLE-->
     <drawable name="log_in_drawable_background_butGetStarted">@drawable/box_orange</drawable>
-    <drawable name="log_in_drawable_background_ete">@drawable/box_white_10</drawable>
+    <drawable name="log_in_drawable_background_ete">@drawable/box_edittext_10_2</drawable>
 
     <!--DIMEN-->
     <dimen name="log_in_butGetStarted_text_size">14sp</dimen>
@@ -30,8 +33,8 @@
 
     <!--STYLE-->
     <style name="AppTheme.LogIn" parent="@style/AppTheme.NoActionBar">
-        <item name="colorControlActivated">@color/orange</item>
-        <item name="colorControlNormal">@color/orange</item>
+        <item name="colorControlActivated">@color/log_in_ete_colorControlActivated</item>
+        <item name="colorControlNormal">@color/log_in_ete_colorControlActivated</item>
     </style>
 
     <style name="AppTheme.LogIn.Button_GetStarted" parent="Base.Widget.AppCompat.Button">
@@ -47,8 +50,9 @@
     <style name="AppTheme.LogIn.EditText" parent="Widget.AppCompat.EditText">
         <item name="android:textColor">@color/log_in_ete_text</item>
         <item name="android:textColorHint">@color/log_in_ete_text_hint</item>
-        <item name="android:background">@drawable/log_in_drawable_background_ete</item>
+        <item name="android:background">@drawable/box_edittext_10</item>
         <item name="android:minHeight">48dip</item>
+        <item name="backgroundTint">@color/log_in_ete_backgroundTint</item>
     </style>
 
     <style name="AppTheme.LogIn.TextView_Footer" parent="@android:style/Widget.TextView">

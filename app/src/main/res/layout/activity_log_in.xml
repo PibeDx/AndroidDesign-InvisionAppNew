@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/log_in_background"
-    app:theme="@style/AppTheme.LogIn"
+    android:theme="@style/AppTheme.LogIn"
     tools:context="com.josecuentas.androiddesign_invisionappnew.LogInActivity">
 
     <ImageView
@@ -83,6 +83,7 @@
             android:inputType="textPersonName"
             android:hint="@string/log_in_eteUsername_holder"
             android:paddingLeft="48dp"
+            android:paddingRight="20dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/logIn_etePassword"
@@ -98,6 +99,7 @@
             android:inputType="textPassword"
             android:hint="@string/log_in_etePassword_holder"
             android:paddingLeft="48dp"
+            android:paddingRight="20dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/logIn_butGetStarted"
